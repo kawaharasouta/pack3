@@ -5,5 +5,7 @@
 
 this name means "packet throw"  
 It creates a packet from the yaml file and throws the packet from the specified interface.
+It is not used for performance measurement etc.  
+It is useful when several kinds of packets are needed for operation check.
 
 Development started June 25, 2018
