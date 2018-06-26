@@ -9,3 +9,10 @@ It is not used for performance measurement etc.
 It is useful when several kinds of packets are needed for operation check.
 
 Development started June 25, 2018
+
+
+## package install 
+
+```
+$ sudo apt install libjansson-dev
+```
