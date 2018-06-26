@@ -2,7 +2,7 @@ CC=gcc
 vpath %.c src
 vpath %.h include
 
-OBJS=
+OBJS=mbuf.c pack3.c
 SRCS=$(OBJS:%.o=%.c)
 CFLAGS=-g -Wall
 LDLIBS=

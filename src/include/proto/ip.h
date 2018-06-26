@@ -3,7 +3,7 @@
 
 #include<stdint.h>
 
-struct ip_hdr{
+struct ip_hdr {
 #if __BYTE_ORDER == __LITTLE_ENDIAN
 	unsigned int hdr_len:4;
 	unsigned int version:4;
@@ -22,6 +22,6 @@ struct ip_hdr{
 	uint16_t check;
 	uint32_t src_addr;
 	uint32_t dest_addr;
-}
+};
 
 #endif

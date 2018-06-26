@@ -1,15 +1,11 @@
 #ifndef __TCP_H_
 #define __TCP_H_
 
-struct tcp_hdr
-{
+struct tcp_hdr {
 	u_int16_t src_addr;
 	u_int16_t dest_addr;
 	u_int32_t seq_num;
 	u_int32_t ack_num;
-
-
-//need modification
 #  if __BYTE_ORDER == __LITTLE_ENDIAN
 	u_int16_t res1:4;
 	u_int16_t doff:4;
